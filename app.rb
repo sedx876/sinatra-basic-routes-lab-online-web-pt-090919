@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
   get '/name' do
     status 200
-    "My name is #{name}"
+    "My name is Sharon"
   end
 
   get '/hometown' do
